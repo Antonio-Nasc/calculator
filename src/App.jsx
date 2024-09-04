@@ -90,7 +90,7 @@ const App = () => {
           <Button label="x" onClick={handleMultiplicationNumbers} />
           <Button label="/" onClick={handleDivisionNumbers} />
           <Button label="c" onClick={handleOnClear} />
-          <Button label="." onClick={handleOnClear} />
+          <Button label="0" onClick={() => handleAddNumber("0")} />
         </Row>
         <Row>
           <Button label="7" onClick={() => handleAddNumber("7")} />
